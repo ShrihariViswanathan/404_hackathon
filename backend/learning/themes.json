@@ -159,7 +159,7 @@
         },
         {
           "unit_id": "G_U24",
-          "title": "Unit 24: Engineering for Finance",
+          "ti   tle": "Unit 24: Engineering for Finance",
           "topics": ["GPU Accelerated Backtesting", "FPGA Trading Logic", "Low Latency C++ Trading", "Kernel Bypass Networking", "Precision Time Protocol", "Direct Market Access"],
           "difficulty": "hard"
         }
