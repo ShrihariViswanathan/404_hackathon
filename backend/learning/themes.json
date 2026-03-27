@@ -1,0 +1,169 @@
+{
+  "sections": [
+    {
+      "section_id": "BRONZE",
+      "league": "Bronze",
+      "description": "Market Literacy & Foundations",
+      "units": [
+        {
+          "unit_id": "B_U1",
+          "title": "Unit 1: Market Foundations",
+          "topics": ["Stock", "Share", "Company", "Stock Market", "NSE", "BSE", "Primary Market", "Secondary Market", "Equity Market", "Listing", "Delisting"],
+          "difficulty": "easy"
+        },
+        {
+          "unit_id": "B_U2",
+          "title": "Unit 2: The Trading Toolkit",
+          "topics": ["Broker", "Demat Account", "Trading Account", "Trading Session", "Market Hours", "Pre Market", "After Market"],
+          "difficulty": "easy"
+        },
+        {
+          "unit_id": "B_U3",
+          "title": "Unit 3: Orders & Execution",
+          "topics": ["Price", "Volume", "Bid Price", "Ask Price", "Spread", "Buy Order", "Sell Order", "Market Order", "Limit Order", "Stop Order", "Tick Size", "Lot Size"],
+          "difficulty": "easy"
+        },
+        {
+          "unit_id": "B_U4",
+          "title": "Unit 4: Ownership & Corporate Actions",
+          "topics": ["IPO", "Market Cap", "Dividend", "Bonus Share", "Stock Split", "Face Value", "Equity", "Ownership", "Public Company", "Private Company"],
+          "difficulty": "easy"
+        },
+        {
+          "unit_id": "B_U5",
+          "title": "Unit 5: Visualizing the Market",
+          "topics": ["Trend", "Uptrend", "Downtrend", "Sideways Market", "Bull Market", "Bear Market", "Chart", "Candlestick", "Green Candle", "Red Candle", "Open Price", "Close Price"],
+          "difficulty": "easy"
+        },
+        {
+          "unit_id": "B_U6",
+          "title": "Unit 6: Risk & Portfolio 101",
+          "topics": ["Portfolio", "Diversification", "Risk", "Reward", "Risk-Reward Ratio", "Stop Loss", "Target Price", "Liquidity", "Volatility"],
+          "difficulty": "easy"
+        },
+        {
+          "unit_id": "B_U7",
+          "title": "Unit 7: Macro & Regulation",
+          "topics": ["Inflation", "Interest Rate", "Bank Rate", "Repo Rate", "Reverse Repo Rate", "RBI", "SEBI", "Regulation", "Compliance", "Insider Trading"],
+          "difficulty": "easy"
+        },
+        {
+          "unit_id": "B_U8",
+          "title": "Unit 8: Personal Finance & Assets",
+          "topics": ["Wealth", "Savings", "Budgeting", "Mutual Fund", "ETF", "SIP", "Lump Sum", "Compounding", "Bond", "Insurance", "Gold Investment"],
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "section_id": "SILVER",
+      "league": "Silver",
+      "description": "Strategic Execution & Analysis",
+      "units": [
+        {
+          "unit_id": "S_U9",
+          "title": "Unit 9: Advanced Charting",
+          "topics": ["Trend Identification", "Support Resistance Mapping", "Pivot Point Trading", "Fibonacci Retracement", "Bollinger Band Squeeze", "Gap Up", "Gap Down"],
+          "difficulty": "medium"
+        },
+        {
+          "unit_id": "S_U10",
+          "title": "Unit 10: Technical Indicators",
+          "topics": ["RSI Divergence", "MACD Histogram", "Stochastic Oscillator", "Ichimoku Cloud Basics", "VWAP Day Trading", "Supertrend Application", "ADX Trend Strength"],
+          "difficulty": "medium"
+        },
+        {
+          "unit_id": "S_U11",
+          "title": "Unit 11: Price Action Patterns",
+          "topics": ["Head and Shoulders", "Double Top", "Double Bottom", "Triangle Pattern Trading", "Breakout Confirmation", "Reversal Setup", "False Breakout Avoidance"],
+          "difficulty": "medium"
+        },
+        {
+          "unit_id": "S_U12",
+          "title": "Unit 12: Fundamental Valuation",
+          "topics": ["PE Ratio Valuation", "Price to Book", "PEG Ratio", "Intrinsic Value Calculation", "Graham Number", "Discounted Cash Flow", "Margin of Safety"],
+          "difficulty": "medium"
+        },
+        {
+          "unit_id": "S_U13",
+          "title": "Unit 13: Corporate Analysis",
+          "topics": ["Balance Sheet Reading", "Income Statement Deep-dive", "Cash Flow from Ops", "ROE Analysis", "ROCE Analysis", "Debt to Equity", "Porter’s Five Forces"],
+          "difficulty": "medium"
+        },
+        {
+          "unit_id": "S_U14",
+          "title": "Unit 14: Market Breadth & Sentiment",
+          "topics": ["FII DII Activity", "Promoter Pledge", "Put-Call Ratio", "Open Interest Analysis", "Advance Decline Ratio", "Tick Index", "TRIN Index"],
+          "difficulty": "medium"
+        },
+        {
+          "unit_id": "S_U15",
+          "title": "Unit 15: Trading Psychology",
+          "topics": ["Confirmation Bias", "Recency Bias", "Loss Aversion", "FOMO Mitigation", "Emotional Control", "Trading Journaling", "Herd Mentality"],
+          "difficulty": "medium"
+        },
+        {
+          "unit_id": "S_U16",
+          "title": "Unit 16: Economic Indicators",
+          "topics": ["GDP Growth Rate", "CPI Inflation", "WPI Inflation", "Trade Balance", "Yield Curve Analysis", "Global Market Linkage", "Currency Impact"],
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "section_id": "GOLD",
+      "league": "Gold",
+      "description": "Quant Models & Infrastructure",
+      "units": [
+        {
+          "unit_id": "G_U17",
+          "title": "Unit 17: Options Mathematics",
+          "topics": ["Black-Scholes Formula", "Greeks Derivations", "Implied Volatility Rank", "Volatility Skew", "Put-Call Parity Math", "Binomial Tree Pricing"],
+          "difficulty": "hard"
+        },
+        {
+          "unit_id": "G_U18",
+          "title": "Unit 18: Advanced Option Strategies",
+          "topics": ["Iron Condor Logic", "Butterfly Spread Greeks", "Straddle vs Strangle", "Calendar Spread Alpha", "Dynamic Hedging", "Delta Neutrality", "Gamma Squeeze Physics"],
+          "difficulty": "hard"
+        },
+        {
+          "unit_id": "G_U19",
+          "title": "Unit 19: Portfolio Quant Models",
+          "topics": ["Sharpe Ratio Calculation", "Sortino Ratio Depth", "Beta Neutral Portfolio", "Co-integration Analysis", "Correlation Matrix", "Monte Carlo Simulation"],
+          "difficulty": "hard"
+        },
+        {
+          "unit_id": "G_U20",
+          "title": "Unit 20: Algorithmic Microstructure",
+          "topics": ["HFT Microstructure", "Latency Optimization", "Order Book Dynamics", "VWAP Algorithm", "TWAP Algorithm", "Smart Order Routing"],
+          "difficulty": "hard"
+        },
+        {
+          "unit_id": "G_U21",
+          "title": "Unit 21: Statistical Arbitrage",
+          "topics": ["Pairs Trading Math", "Mean Reversion Quant", "Momentum Factor Model", "Walk-Forward Analysis", "Overfitting Prevention", "Alpha Decay Analysis"],
+          "difficulty": "hard"
+        },
+        {
+          "unit_id": "G_U22",
+          "title": "Unit 22: Risk & Crisis Modeling",
+          "topics": ["VaR", "Expected Shortfall", "Tail Risk Hedging", "Black Swan Modeling", "Liquidity Trap Physics", "Systemic Risk Modeling"],
+          "difficulty": "hard"
+        },
+        {
+          "unit_id": "G_U23",
+          "title": "Unit 23: Fixed Income Quant",
+          "topics": ["Duration Gap Analysis", "Convexity Adjustment", "Vasicek Model", "Hull-White Model", "LIBOR Transition", "SOFR Dynamics"],
+          "difficulty": "hard"
+        },
+        {
+          "unit_id": "G_U24",
+          "title": "Unit 24: Engineering for Finance",
+          "topics": ["GPU Accelerated Backtesting", "FPGA Trading Logic", "Low Latency C++ Trading", "Kernel Bypass Networking", "Precision Time Protocol", "Direct Market Access"],
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+}

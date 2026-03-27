@@ -1,0 +1,392 @@
+[
+    {
+        "question": "What is the primary purpose of the BSE Sensex and NSE Nifty, which are widely followed indices in India?",
+        "options": [
+            "To track the performance of individual stocks",
+            "To provide a snapshot of the overall market sentiment",
+            "To offer a benchmark for sectoral performance",
+            "To track the performance of specific industry groups"
+        ],
+        "answer": 1,
+        "explanation": "The BSE Sensex and NSE Nifty are widely followed stock market indices that aim to represent the overall market sentiment by tracking the performance of the top companies listed on the Bombay Stock Exchange and National Stock Exchange respectively.",
+        "topic": "Market News Tracking",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the primary purpose of Fibonacci Retracement in the Indian Stock Market?",
+        "options": [
+            "To predict the direction of the market",
+            "To identify potential support and resistance levels",
+            "To calculate the stock's intrinsic value",
+            "To time the market entry and exit"
+        ],
+        "answer": 1,
+        "explanation": "Fibonacci Retracement helps identify potential support and resistance levels by analyzing the price movements and retracement levels.",
+        "topic": "Fibonacci Retracement",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What happens to an investor's position when the margin call probability is high in the Indian stock market?",
+        "options": [
+            "The broker automatically squares off the position at the current market price",
+            "The investor is required to deposit more funds or securities to cover the potential losses",
+            "The investor's account is frozen until the market volatility reduces",
+            "The broker provides an interest-free loan to the investor to cover the margin shortfall"
+        ],
+        "answer": 1,
+        "explanation": "A high margin call probability indicates that the investor's account balance is approaching or has fallen below the minimum required margin, triggering a demand from the broker to deposit more funds or securities to cover potential losses.",
+        "topic": "Margin Call Probability",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is a Call Option in the Indian Stock Market?",
+        "options": [
+            "Right to buy a stock at a fixed price",
+            "Right to sell a stock at a fixed price",
+            "Right to buy a stock at market price",
+            "Right to sell a stock at market price"
+        ],
+        "answer": 0,
+        "explanation": "A Call Option gives the buyer the right to buy a stock at a predetermined price on or before a specified date.",
+        "topic": "Call Option",
+        "difficulty": "easy"
+    },
+    {
+        "question": "The GDP growth rate in India is an important indicator of the overall health of the stock market.",
+        "options": [
+            "It indicates the rate of inflation",
+            "It measures the rate of economic growth",
+            "It shows the rate of unemployment",
+            "It measures the rate of interest rates"
+        ],
+        "answer": 1,
+        "explanation": "The GDP growth rate is a key indicator of the overall health of the economy and is closely watched by investors to gauge the potential for growth in the stock market.",
+        "topic": "GDP Growth Rate",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the Graham Number formula?",
+        "options": [
+            "Earnings per share * (22.5 + 0.4 * Price to Earnings ratio)",
+            "Earnings per share * (0.6 * Price to Earnings ratio)",
+            "Earnings per share / (22.5 + 0.4 * Price to Earnings ratio)",
+            "Earnings per share / (0.6 * Price to Earnings ratio)"
+        ],
+        "answer": 2,
+        "explanation": "The Graham Number formula is Earnings per share / (22.5 + 0.4 * Price to Earnings ratio)",
+        "topic": "Graham Number",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What does the Ulcer Index measure in the context of the Indian Stock Market?",
+        "options": [
+            "Volatility",
+            "Risk",
+            "Return",
+            "Maximum Drawdown"
+        ],
+        "answer": 3,
+        "explanation": "The Ulcer Index measures the maximum drawdown of a portfolio over a specified time period.",
+        "topic": "Ulcer Index",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is a bullish sentiment in the Indian stock market?",
+        "options": [
+            "Investors are selling stocks",
+            "Investors are buying stocks",
+            "Investors are neutral",
+            "Investors are holding cash"
+        ],
+        "answer": 1,
+        "explanation": "Bullish sentiment is characterized by a strong demand for stocks, indicating optimism among investors.",
+        "topic": "Sentimental Analysis",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is Ethereum?",
+        "options": [
+            "A digital currency",
+            "A decentralized blockchain platform",
+            "A stock exchange",
+            "A banking system"
+        ],
+        "answer": 1,
+        "explanation": "Ethereum is a decentralized blockchain platform.",
+        "topic": "Ethereum",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What technique is used to prevent overfitting in Indian stock market models by adding a penalty term to the loss function for large weights",
+        "options": [
+            "Dropout",
+            "Early stopping",
+            "L1 regularization",
+            "L2 regularization"
+        ],
+        "answer": 2,
+        "explanation": "L1 regularization, also known as Lasso regression, adds a penalty term to the loss function for large weights, helping to prevent overfitting.",
+        "topic": "Overfitting Prevention",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the primary goal of panic avoidance in the Indian stock market?",
+        "options": [
+            "To sell stocks quickly during a downturn",
+            "To avoid making impulsive decisions during market volatility",
+            "To invest in stocks without any research",
+            "To hold onto stocks regardless of their performance"
+        ],
+        "answer": 1,
+        "explanation": "Panic avoidance involves making rational decisions during market turmoil, rather than acting impulsively.",
+        "topic": "Panic Avoidance",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the T+2 settlement cycle in the Indian stock market?",
+        "options": [
+            "T+0",
+            "T+1",
+            "T+2",
+            "T+3"
+        ],
+        "answer": 2,
+        "explanation": "T+2 stands for trade date plus 2 days, meaning that the settlement of trades takes place 2 days after the trade date.",
+        "topic": "Settlement",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What does the Sortino Ratio measure in the context of the Indian Stock Market?",
+        "options": [
+            "The number of stocks that have increased in value over a given period",
+            "The volatility of a portfolio relative to its excess return over a risk-free rate",
+            "The rate of return of a portfolio relative to its beta",
+            "The correlation between two stocks in a portfolio"
+        ],
+        "answer": 1,
+        "explanation": "The Sortino Ratio is a measure of risk-adjusted return, which calculates the excess return of a portfolio over a risk-free rate, relative to its downside volatility, providing a more nuanced view of a portfolio's performance.",
+        "topic": "Sortino Ratio Depth",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the primary objective of investing in Inflation-Indexed Bonds, such as the Inflation-Indexed National Savings Securities-Cumulative (IINSS-C) in India?",
+        "options": [
+            "To provide a fixed rate of return that is not adjusted for inflation",
+            "To offer a return that is directly linked to the performance of the Indian stock market",
+            "To protect the purchasing power of the investment by adjusting the returns for inflation",
+            "To provide a tax-free return on investment"
+        ],
+        "answer": 2,
+        "explanation": "Inflation-Indexed Bonds are designed to protect investors from the erosion of purchasing power due to inflation by adjusting the returns in line with inflation rates.",
+        "topic": "Inflation-Linked Bonds",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the primary purpose of the Multi Commodity Exchange (MCX) in India?",
+        "options": [
+            "To regulate commodity futures trading",
+            "To provide a platform for spot commodity trading",
+            "To facilitate commodity derivatives trading",
+            "To promote commodity spot market"
+        ],
+        "answer": 2,
+        "explanation": "The Multi Commodity Exchange (MCX) is a leading exchange in India that facilitates commodity derivatives trading.",
+        "topic": "Commodity Market",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is a common strategy used in intraday trading to take advantage of price movements?",
+        "options": [
+            "Buying at the opening and selling at the closing",
+            "Buying at the low and selling at the high",
+            "Buying at support and selling at resistance",
+            "Buying at the opening and holding till the end of the day"
+        ],
+        "answer": 2,
+        "explanation": "This strategy involves identifying levels of support and resistance and making trades accordingly.",
+        "topic": "Intraday Setup",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is Lump Sum investment in the Indian Stock Market?",
+        "options": [
+            "Investing a fixed amount of money at regular intervals",
+            "Investing a large amount of money at one time",
+            "Investing in a specific stock only",
+            "Investing in a diversified portfolio"
+        ],
+        "answer": 1,
+        "explanation": "Lump Sum investment is when a large amount of money is invested in the stock market at one time.",
+        "topic": "Lump Sum",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the primary advantage of using Rainbow Options in the Indian stock market, considering the bull spread strategy with calls and puts?",
+        "options": [
+            "Limited risk with unlimited potential loss",
+            "Unlimited potential profit with limited risk",
+            "Limited risk with limited potential profit",
+            "Unlimited potential loss with unlimited potential profit"
+        ],
+        "answer": 2,
+        "explanation": "The primary advantage of using Rainbow Options is that it allows investors to limit their risk while also capping their potential profit, making it a popular choice for those looking to balance risk and reward in the Indian stock market.",
+        "topic": "Rainbow Options",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the primary purpose of walk-forward analysis in the context of Indian stock market trading strategies?",
+        "options": [
+            "To evaluate the performance of a trading strategy using only historical data",
+            "To optimize trading strategy parameters by minimizing overfitting and maximizing out-of-sample performance",
+            "To predict stock prices using technical indicators",
+            "To identify undervalued stocks for long-term investment"
+        ],
+        "answer": 1,
+        "explanation": "Walk-forward analysis is used to optimize trading strategy parameters by minimizing overfitting and maximizing out-of-sample performance, which helps in evaluating the robustness of a trading strategy.",
+        "topic": "Walk-Forward Analysis",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the primary focus of the Top-Down Approach in stock market analysis?",
+        "options": [
+            "Identifying individual stocks to buy",
+            "Analyzing the overall economy and market trends",
+            "Evaluating company financials",
+            "Assessing industry growth"
+        ],
+        "answer": 1,
+        "explanation": "The Top-Down Approach involves analyzing the overall economy and market trends to identify potential investment opportunities.",
+        "topic": "Top-Down Approach",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the primary objective of using Deep Learning Alpha in the Indian Stock Market?",
+        "options": [
+            "To predict stock prices using traditional machine learning models",
+            "To identify potential trading opportunities by analyzing large datasets",
+            "To develop a rules-based investing strategy",
+            "To create a portfolio optimization framework"
+        ],
+        "answer": 1,
+        "explanation": "Deep Learning Alpha uses advanced artificial intelligence and machine learning techniques to analyze vast amounts of data, including market trends and news, to identify potential trading opportunities and generate alpha.",
+        "topic": "Deep Learning Alpha",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the primary implication of power law distributions in the Indian stock market, particularly with respect to stock price returns?",
+        "options": [
+            "It implies that stock price returns are normally distributed and can be predicted with a high degree of accuracy",
+            "It suggests that extreme events, such as stock market crashes, are more likely to occur than predicted by traditional statistical models",
+            "It indicates that the Indian stock market is inefficient and therefore cannot be subject to statistical analysis",
+            "It means that the distribution of stock price returns is symmetric and can be fully captured by the mean and variance"
+        ],
+        "answer": 1,
+        "explanation": "Power law distributions in the context of the Indian stock market, particularly with respect to stock price returns, suggest that extreme events are more likely to occur than traditional models predict, highlighting the importance of considering fat-tailed distributions when analyzing market behavior.",
+        "topic": "Power Law Distributions",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the primary goal of an exit strategy in the Indian stock market?",
+        "options": [
+            "To minimize losses",
+            "To lock in profits",
+            "To time the market",
+            "To diversify the portfolio"
+        ],
+        "answer": 1,
+        "explanation": "An exit strategy is designed to lock in profits and minimize potential losses by deciding when to sell a stock, thereby limiting exposure to market volatility.",
+        "topic": "Exit Strategy Planning",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the primary function of an Execution Management System (EMS) in the Indian stock market?",
+        "options": [
+            "To provide real-time market data and news feeds to traders",
+            "To facilitate the execution of trades across multiple asset classes and geographies",
+            "To provide advanced risk management and compliance tools for brokerages",
+            "To act as a bridge between the trading platform and the exchange's order management system"
+        ],
+        "answer": 1,
+        "explanation": "An Execution Management System (EMS) is a software system used by traders to manage and execute trades across multiple asset classes and geographies. It provides a single platform for traders to access multiple markets, brokers, and exchanges, and to execute trades in a fast and efficient manner.",
+        "topic": "Execution Management Systems",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the primary advantage of using financial leverage in investing?",
+        "options": [
+            "Increased potential for higher returns",
+            "Reduced risk of losses",
+            "Lower investment costs",
+            "Increased capital requirements"
+        ],
+        "answer": 0,
+        "explanation": "Financial leverage allows investors to amplify their returns by using borrowed funds, but it also increases their potential losses.",
+        "topic": "Financial Leverage",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is a circuit breaker in the Indian stock market?",
+        "options": [
+            "A mechanism to prevent price manipulation",
+            "A tool to limit losses",
+            "A system to halt trading temporarily",
+            "A feature to provide margin calls"
+        ],
+        "answer": 2,
+        "explanation": "A circuit breaker is a system to halt trading temporarily when there is a significant price movement in a stock, such as a 10% drop in the S&P BSE Sensex.",
+        "topic": "Experienced Trader",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the primary function of the National Securities Depository Limited (NSDL) in the Indian stock market?",
+        "options": [
+            "To act as a stock exchange for trading of securities",
+            "To provide a platform for mutual fund distribution",
+            "To hold and settle securities in electronic form, eliminating the need for physical certificates",
+            "To regulate the activities of stockbrokers and sub-brokers"
+        ],
+        "answer": 2,
+        "explanation": "The NSDL is a central securities depository that holds and settles securities in electronic form, facilitating the dematerialization of securities and improving the efficiency of the settlement process.",
+        "topic": "Quant Finance Infrastructure",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What happens during the Pre-Market session in the Indian Stock Market?",
+        "options": [
+            "Trading of stocks",
+            "Order matching and executions",
+            "Market sentiment and analysis",
+            "No trading"
+        ],
+        "answer": 2,
+        "explanation": "During the pre-market session, market sentiment and analysis occur, where traders and investors assess the market conditions and make predictions.",
+        "topic": "Pre Market",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the primary purpose of setting a financial goal?",
+        "options": [
+            "To save money for emergencies",
+            "To invest in the stock market",
+            "To achieve a long-term financial objective",
+            "To pay taxes on time"
+        ],
+        "answer": 2,
+        "explanation": "Setting a financial goal helps individuals achieve a long-term financial objective, such as buying a house or retirement planning.",
+        "topic": "Financial Goal",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is considered as active income in the Indian stock market?",
+        "options": [
+            "Dividend income",
+            "Capital appreciation",
+            "Interest income",
+            "Rent income"
+        ],
+        "answer": 0,
+        "explanation": "Dividend income is considered as active income, as it is generated by selling securities.",
+        "topic": "Active Income",
+        "difficulty": "easy"
+    }
+]

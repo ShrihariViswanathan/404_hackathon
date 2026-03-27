@@ -16,9 +16,24 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 class QuestionCache:
     def __init__(self):
         self.cached_questions = []
+        # Path to the persistent backup file
+        self.backup_path = CURRENT_DIR / "placement_backup.json"
 
     def refresh_cache(self):
-        print("🚀 Pre-generating 30 questions (10 Easy, 10 Medium, 10 Hard)...")
+        # 1. Check if backup exists to avoid re-generating on every server reload
+        if self.backup_path.exists():
+            try:
+                with open(self.backup_path, "r") as f:
+                    self.cached_questions = json.load(f)
+                
+                if len(self.cached_questions) >= 30:
+                    print(f"📦 Placement Questions loaded from local backup: {len(self.cached_questions)} questions.")
+                    return
+            except Exception as e:
+                print(f"⚠️ Backup file corrupted or unreadable: {e}. Re-generating...")
+
+        # 2. If no backup, proceed with AI generation
+        print("🚀 Pre-generating 30 questions (10 Easy, 10 Medium, 10 Hard) via AI...")
         new_batch = []
         difficulties = ["easy", "medium", "hard"]
         
@@ -32,6 +47,15 @@ class QuestionCache:
         
         random.shuffle(new_batch)
         self.cached_questions = new_batch
+        
+        # 3. SAVE TO BACKUP FILE
+        try:
+            with open(self.backup_path, "w") as f:
+                json.dump(self.cached_questions, f, indent=4)
+            print(f"💾 Placement backup saved to {self.backup_path}")
+        except Exception as e:
+            print(f"❌ Could not save placement backup: {e}")
+
         print(f"✅ Cache Loaded: {len(self.cached_questions)} questions ready.")
 
     def _get_topics(self, diff, count):
@@ -47,7 +71,6 @@ class QuestionCache:
     def _generate_with_retry(self, topic, diff, retries=2):
         model = "llama-3.1-8b-instant" if diff != "hard" else "llama-3.3-70b-versatile"
         
-        # We add a clear example to the system prompt to prevent formatting errors
         system_msg = (
             "You are a professional Financial Examiner. Output ONLY valid JSON. "
             "Do not include labels like 'A)' or '1)' inside the options strings. "
@@ -66,13 +89,10 @@ class QuestionCache:
                         {"role": "user", "content": prompt}
                     ],
                     response_format={"type": "json_object"},
-                    temperature=0.5 # Lower temperature = more stable formatting
+                    temperature=0.5
                 )
-                # Standardizing the response
                 content = completion.choices[0].message.content
                 data = json.loads(content)
-                
-                # Metadata injection
                 data.update({"topic": topic, "difficulty": diff})
                 return data
             except Exception as e:
