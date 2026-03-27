@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+.glitch {
+  position: relative;
+  color: white;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+}
+
+.glitch::before {
+  animation: glitch 0.3s infinite;
+  color: red;
+}
+
+.glitch::after {
+  animation: glitch 0.3s infinite reverse;
+  color: blue;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-2px, 0); }
+  80% { transform: translate(2px, 2px); }
+  100% { transform: translate(0); }
+}
+
+button {
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  box-shadow: 0 0 30px rgba(34, 211, 238, 0.4);
+}
+
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 40px rgba(34, 211, 238, 0.3);
+}
